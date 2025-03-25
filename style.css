@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C5F7F0;
+    font-family: "League Spartan";
+    font-size: 40px;
+}
+table{
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+}
+td{
+    width: 10%;
+    height: 10vh;
+}
+#td1{
+    height: 119px;
+}
+img{
+    width: 269px;
+    height: 116px;
+}
+#linha1{
+    background-color: #A9C2C9;
+}
+ul{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.content{
+    font-size: 40px;
+}
+nav, p{
+    color: #72577C;
+}
+.desempenho{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
