@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C5F7F0;
+    font-family: "League Spartan";
+    font-size: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100vh;
+}
+.linha1{
+    background-color: #A9C2C9;
+}
+td{
+    height: 10vh;
+    width: 10%;
+}
+ul{
+    font-size: 0.8em;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav, p{
+    color: #72577C;
+}
+.rodape{
+    font-size: 22px;
+    color: black;
+}
+.quemsomosP{
+    font-size: 22px;
+    text-align: center;
+}
+.sobreNos{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.logo{
+    height: 80px;
+}
+.preto{
+    color: #72577C;
+    text-decoration: none;
+}
+.preto:hover{
+    text-decoration: underline;
+    color: #530270;
+}
+.produtos {
+    color: #572d66;
+    position: relative; /* Importante para posicionar o ::after corretamente */
+    padding-right: 20px; /* Adiciona espaço para o ::after não sobrepor o texto */
+  }
+  
+.produtos::after {
+    content: "";
+    position: absolute; 
+    top: 0;
+    right: 0;
+    width: 100%; 
+    height: 110%;
+    background-color: rgba(173, 216, 230, 0.4); 
+    border-radius: 20px;
+    transform: translateX(-10px) translateY(-5px);
+}
+.produtosH1{
+    text-align: center;
+}
+.tecladoP{
+    padding: 10px 0;
+    width: 100%;
+    border: 1px solid #72577C;
+    border-radius: 20px;
+    text-align: center;
+}
+.tecladoP:hover{
+    color: #C5F7F0;
+    background-color: #72577C;
+}
+.placaP{
+    padding: 10px 0;
+    width: 100%;
+    border: 1px solid #72577C;
+    border-radius: 20px;
+    text-align: center;
+}
+.placaP:hover{
+    color: #C5F7F0;
+    background-color: #72577C;
+}
