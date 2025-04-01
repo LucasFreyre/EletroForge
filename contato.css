@@ -39,9 +39,26 @@ h1{
 .preto{
     color: black;
     text-align: center;
-    font-size: 22px;
+    font-size: 1em;
 }
 .roxo{
-    font-size: 22px;
+    font-size: 1em;
     text-align: center;
+}
+tr{
+    position: relative;
+}
+.gmail{
+    text-decoration: underline;
+}
+.logo{
+    height: 80px;
+}
+a{
+    color: #72577C;
+    text-decoration: none;
+}
+.HOME:hover,.CONTATO:hover,.SOBRE:hover{
+    text-decoration: underline;
+    color: #530270;
 }
