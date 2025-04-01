@@ -16,30 +16,54 @@ td{
     width: 10%;
     height: 10vh;
 }
-#td1{
-    height: 119px;
+.logo{
+    height: 80px;
 }
-img{
-    width: 269px;
-    height: 116px;
-}
-#linha1{
+.linha1{
+    height: 121.266;
     background-color: #A9C2C9;
 }
 ul{
+    font-size: 0.8em;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
 .content{
-    font-size: 40px;
+    font-size: 1.5em;
 }
 nav, p{
     color: #72577C;
 }
 .desempenho{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: black;
+}
+.teclados{
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateX(-100px);
+}
+.preto{
+    color: #72577C;
+    text-decoration: none;
+}
+.rodape{
+    font-size: 22px;
+    color: black;
+}
+.teclado{
+    height: 550px;
+
+}
+.frase{
+    transform: scale(2);
+    transform: translateX(100px);
+}
+.preto:hover{
+    text-decoration: underline;
+    color: #530270;
 }
